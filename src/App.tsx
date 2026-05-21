@@ -27,7 +27,7 @@ export default function App() {
       </div>
 
       {/* Primary Full screen Interactive Presentation */}
-      <div className="flex-1 w-full h-full relative z-10">
+      <div className="flex-1 w-full h-full relative z-20">
         <InteractiveShow
           config={config}
           theme={currentTheme}

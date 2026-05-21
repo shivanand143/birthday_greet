@@ -197,7 +197,7 @@ export default function FireflyEmbers({ color = 'rgba(244, 63, 94, 0.45)', count
     <canvas
       id="heart-bubble-canvas"
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none z-30"
+      className="fixed inset-0 pointer-events-none z-10"
       style={{ mixBlendMode: 'screen' }}
     />
   );

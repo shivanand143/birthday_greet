@@ -160,7 +160,7 @@ export default function InteractiveShow({ config, theme, onRestart, onStartMusic
   };
 
   return (
-    <div className={`relative w-full min-h-screen flex flex-col items-center justify-center font-cursive tracking-normal overflow-hidden px-4 select-none ${theme.background}`}>
+    <div className="relative w-full min-h-screen flex flex-col items-center justify-center font-cursive tracking-normal overflow-hidden px-4 select-none bg-transparent">
       
       {/* Background radial overlays for extreme neon depth */}
       <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-rose-500/10 rounded-full blur-[90px] pointer-events-none animate-pulse-slow" />
